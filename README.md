@@ -1,2 +1,0 @@
-# Hammond Python Challenge
- Final 

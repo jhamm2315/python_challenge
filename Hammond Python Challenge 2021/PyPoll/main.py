@@ -15,7 +15,7 @@ candidates = []
 csv_reader = ['1','2']
 
 # Pull in data & read file
-csvpath = os.path.join("C:/Users/Tiffa/Documents/python-challenge/PyPoll/Resources/election_data.csv")
+csvpath = os.path.join("Resources", "election_data.csv")
 with open(csvpath) as csvfile:
     csv_reader = csv.reader(csvfile, delimiter = ',')
     next(csv_reader)
@@ -58,7 +58,7 @@ print("--------------------------------")
  
 
  #open a file for writing:
-f = open("C:/Users/Tiffa/Documents/python-challenge/PyPoll/analysis/poll.txt","w")
+f = open("analysis_poll.txt","w")
 print("Election Results", file=f)
 print("--------------------------------", file=f)
 print(f"Total Votes: {votes}", file=f)
