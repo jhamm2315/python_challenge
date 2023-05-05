@@ -31,6 +31,7 @@ for i in range(1, len(PL)):
 
 AvgChange = sum(monthlyChanges) / len(monthlyChanges)
 
+
 #Find max increase and min increase
 MaxIncrease = max(monthlyChanges)
 MaxDecrease = min(monthlyChanges)
